@@ -6,7 +6,7 @@ const stripe = new Stripe(API_KEY, {
   apiVersion: '2023-10-16'
 })
 
-export async function GET(params) {
+export async function GET() {
   try {
 
     const products = await stripe.products.list({ active: true})

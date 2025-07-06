@@ -15,7 +15,7 @@ export async function getProducts() {
     }
 } 
 
-export default async function Home() {
+export default async function Home(props) {
 
   const products = await getProducts()
   
