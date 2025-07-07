@@ -24,7 +24,7 @@ export default function Products(props) {
             <div  id="planner-id" className="section-container">
                 <div className="section-header">
                     <h2>Shop Our Selection</h2>
-                    <p>From organisation or accesorisation</p>
+                    <p>From organisation or accesorization</p>
                 </div>
 
                 <div className="planner-container">
