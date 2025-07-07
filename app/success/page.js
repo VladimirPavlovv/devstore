@@ -6,7 +6,7 @@ export default function SuccessPage() {
 
     return (
         <div className="page-container">
-            <h2 className="text-large">Thank you for your purchase! (～￣▽￣)～</h2>
+            <h2 className="text-medium">Thank you for your purchase! (～￣▽￣)～</h2>
             <div>
                 <Link href={'/'}>
                     <button>Continue &rarr;</button>
